@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6991c94313212db1f9bfecce"
+  },
+  "username": "uttam",
+  "email": "uttam096@gmail.com",
+  "password": "$2b$10$6YROAa5wL1cJP9lCaSvps.DSUq5gJNZ1.wGa8mvS1HhIz3w9OLQCW",
+  "savedCars": [
+    {
+      "$oid": "6991cc43df9247b223629f37"
+    },
+    {
+      "$oid": "6991cc43df9247b223629f38"
+    }
+  ],
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "6991cf2d13212db1f9bfed41"
+  },
+  "username": "shikha",
+  "email": "shikha@gmail.com",
+  "password": "$2b$10$B6f7lg5q4GSRyg07VbgF/utI2XYPxDv6qjPXd9vs0PAZUP6H5hjEi",
+  "savedCars": [
+    {
+      "$oid": "6991cc43df9247b223629f37"
+    }
+  ],
+  "__v": 1
+}]

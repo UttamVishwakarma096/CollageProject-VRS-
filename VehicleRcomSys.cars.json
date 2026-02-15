@@ -1,0 +1,750 @@
+[{
+  "_id": {
+    "$oid": "6991dc26df9247b223629f43"
+  },
+  "name": "Hyundai Creta",
+  "brand": "Hyundai",
+  "price": 1450000,
+  "category": "SUV",
+  "fuelType": "Petrol",
+  "transmission": "Manual",
+  "engine": "1.5L MPi Petrol",
+  "mileage": 17,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "White",
+    "Black",
+    "Silver",
+    "Blue"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/40530/creta-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Feature packed compact SUV with premium comfort and safety.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Touchscreen",
+    "Sunroof",
+    "Cruise Control"
+  ],
+  "rating": 4.5,
+  "reviewsCount": 120
+},
+{
+  "_id": {
+    "$oid": "6991dc26df9247b223629f44"
+  },
+  "name": "Kia Seltos",
+  "brand": "Kia",
+  "price": 1380000,
+  "category": "SUV",
+  "fuelType": "Diesel",
+  "transmission": "Automatic",
+  "engine": "1.5L CRDi Diesel",
+  "mileage": 20,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "Red",
+    "White",
+    "Black"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/125967/seltos-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Stylish SUV with powerful engine and premium interiors.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Touchscreen",
+    "Sunroof",
+    "Ventilated Seats"
+  ],
+  "rating": 4.6,
+  "reviewsCount": 145
+},
+{
+  "_id": {
+    "$oid": "6991dc26df9247b223629f45"
+  },
+  "name": "Tata Nexon",
+  "brand": "Tata",
+  "price": 980000,
+  "category": "SUV",
+  "fuelType": "Petrol",
+  "transmission": "Manual",
+  "engine": "1.2L Turbo Petrol",
+  "mileage": 17,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "White",
+    "Grey",
+    "Blue"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/140173/nexon-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "India's safest compact SUV with 5-star safety rating.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Touchscreen",
+    "ESP",
+    "Cruise Control"
+  ],
+  "rating": 4.7,
+  "reviewsCount": 190
+},
+{
+  "_id": {
+    "$oid": "6991dc26df9247b223629f46"
+  },
+  "name": "Mahindra XUV700",
+  "brand": "Mahindra",
+  "price": 2200000,
+  "category": "SUV",
+  "fuelType": "Diesel",
+  "transmission": "Automatic",
+  "engine": "2.2L mHawk Diesel",
+  "mileage": 16,
+  "seatingCapacity": 7,
+  "colorOptions": [
+    "White",
+    "Black",
+    "Silver"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/128413/xuv700-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Premium SUV with ADAS and luxury interiors.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Panoramic Sunroof",
+    "ADAS",
+    "Cruise Control"
+  ],
+  "rating": 4.8,
+  "reviewsCount": 210
+},
+{
+  "_id": {
+    "$oid": "6991dc26df9247b223629f47"
+  },
+  "name": "Honda City",
+  "brand": "Honda",
+  "price": 1350000,
+  "category": "Sedan",
+  "fuelType": "Petrol",
+  "transmission": "Manual",
+  "engine": "1.5L i-VTEC Petrol",
+  "mileage": 18,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "White",
+    "Black",
+    "Blue"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/134287/city-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Premium sedan with refined engine and comfort ride.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Touchscreen",
+    "Lane Watch Camera"
+  ],
+  "rating": 4.6,
+  "reviewsCount": 175
+},
+{
+  "_id": {
+    "$oid": "6991dc26df9247b223629f48"
+  },
+  "name": "Maruti Baleno",
+  "brand": "Maruti",
+  "price": 750000,
+  "category": "Hatchback",
+  "fuelType": "Petrol",
+  "transmission": "Manual",
+  "engine": "1.2L DualJet Petrol",
+  "mileage": 22,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "Red",
+    "White",
+    "Grey"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/141377/baleno-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Fuel efficient premium hatchback with modern features.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Touchscreen",
+    "Rear Camera"
+  ],
+  "rating": 4.4,
+  "reviewsCount": 160
+},
+{
+  "_id": {
+    "$oid": "6991dc26df9247b223629f49"
+  },
+  "name": "Toyota Fortuner",
+  "brand": "Toyota",
+  "price": 3800000,
+  "category": "SUV",
+  "fuelType": "Diesel",
+  "transmission": "Automatic",
+  "engine": "2.8L GD Diesel",
+  "mileage": 14,
+  "seatingCapacity": 7,
+  "colorOptions": [
+    "White",
+    "Black"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/115777/fortuner-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Powerful premium SUV with off-road capabilities.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "4x4",
+    "Cruise Control",
+    "Touchscreen"
+  ],
+  "rating": 4.9,
+  "reviewsCount": 260
+},
+{
+  "_id": {
+    "$oid": "6991dc26df9247b223629f4a"
+  },
+  "name": "Skoda Slavia",
+  "brand": "Skoda",
+  "price": 1250000,
+  "category": "Sedan",
+  "fuelType": "Petrol",
+  "transmission": "Manual",
+  "engine": "1.0L TSI Petrol",
+  "mileage": 19,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "Red",
+    "White",
+    "Silver"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/142191/slavia-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "European styled sedan with powerful turbo engine.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Touchscreen",
+    "Cruise Control"
+  ],
+  "rating": 4.5,
+  "reviewsCount": 140
+},
+{
+  "_id": {
+    "$oid": "6991dc26df9247b223629f4b"
+  },
+  "name": "MG ZS EV",
+  "brand": "MG",
+  "price": 2300000,
+  "category": "SUV",
+  "fuelType": "Electric",
+  "transmission": "Automatic",
+  "engine": "50.3 kWh Battery",
+  "mileage": 461,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "White",
+    "Blue",
+    "Silver"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/125965/zs-ev-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Premium electric SUV with long driving range.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Touchscreen",
+    "Connected Car Tech"
+  ],
+  "rating": 4.6,
+  "reviewsCount": 130
+},
+{
+  "_id": {
+    "$oid": "6991dc26df9247b223629f4c"
+  },
+  "name": "Hyundai Verna",
+  "brand": "Hyundai",
+  "price": 1500000,
+  "category": "Sedan",
+  "fuelType": "Petrol",
+  "transmission": "Automatic",
+  "engine": "1.5L Turbo GDi Petrol",
+  "mileage": 20,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "Black",
+    "White",
+    "Red"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/141361/verna-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Sporty sedan with powerful turbo engine and premium cabin.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Sunroof",
+    "Touchscreen",
+    "ADAS"
+  ],
+  "rating": 4.7,
+  "reviewsCount": 155
+},
+{
+  "_id": {
+    "$oid": "6991dd3ddf9247b223629f4e"
+  },
+  "name": "Maruti Swift",
+  "brand": "Maruti",
+  "price": 720000,
+  "category": "Hatchback",
+  "fuelType": "Petrol",
+  "transmission": "Manual",
+  "engine": "1.2L DualJet Petrol",
+  "mileage": 22,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "Red",
+    "White",
+    "Grey"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/54399/swift-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Sporty hatchback with excellent mileage and performance.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Touchscreen",
+    "Rear Camera"
+  ],
+  "rating": 4.4,
+  "reviewsCount": 210
+},
+{
+  "_id": {
+    "$oid": "6991dd3ddf9247b223629f4f"
+  },
+  "name": "Hyundai i20",
+  "brand": "Hyundai",
+  "price": 890000,
+  "category": "Hatchback",
+  "fuelType": "Petrol",
+  "transmission": "Automatic",
+  "engine": "1.2L Kappa Petrol",
+  "mileage": 20,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "Blue",
+    "White",
+    "Black"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/41510/i20-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Premium hatchback with modern tech and comfort.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Touchscreen",
+    "Wireless Charging"
+  ],
+  "rating": 4.5,
+  "reviewsCount": 170
+},
+{
+  "_id": {
+    "$oid": "6991dd3ddf9247b223629f50"
+  },
+  "name": "Tata Punch",
+  "brand": "Tata",
+  "price": 630000,
+  "category": "SUV",
+  "fuelType": "Petrol",
+  "transmission": "Manual",
+  "engine": "1.2L Revotron Petrol",
+  "mileage": 20,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "White",
+    "Yellow",
+    "Grey"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/105951/punch-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Micro SUV with excellent safety and rugged styling.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Touchscreen",
+    "Hill Hold"
+  ],
+  "rating": 4.6,
+  "reviewsCount": 190
+},
+{
+  "_id": {
+    "$oid": "6991dd3ddf9247b223629f51"
+  },
+  "name": "Renault Kiger",
+  "brand": "Renault",
+  "price": 700000,
+  "category": "SUV",
+  "fuelType": "Petrol",
+  "transmission": "Manual",
+  "engine": "1.0L Turbo Petrol",
+  "mileage": 20,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "Red",
+    "White",
+    "Blue"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/106815/kiger-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Compact SUV with sporty design and turbo performance.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Touchscreen",
+    "Wireless Android Auto"
+  ],
+  "rating": 4.3,
+  "reviewsCount": 140
+},
+{
+  "_id": {
+    "$oid": "6991dd3ddf9247b223629f52"
+  },
+  "name": "Volkswagen Virtus",
+  "brand": "Volkswagen",
+  "price": 1400000,
+  "category": "Sedan",
+  "fuelType": "Petrol",
+  "transmission": "Manual",
+  "engine": "1.5L TSI Petrol",
+  "mileage": 18,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "Red",
+    "White",
+    "Silver"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/144049/virtus-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Sporty sedan with turbocharged performance.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Touchscreen",
+    "Cruise Control"
+  ],
+  "rating": 4.7,
+  "reviewsCount": 160
+},
+{
+  "_id": {
+    "$oid": "6991dd3ddf9247b223629f53"
+  },
+  "name": "Toyota Innova Crysta",
+  "brand": "Toyota",
+  "price": 2100000,
+  "category": "MUV",
+  "fuelType": "Diesel",
+  "transmission": "Manual",
+  "engine": "2.4L GD Diesel",
+  "mileage": 15,
+  "seatingCapacity": 7,
+  "colorOptions": [
+    "White",
+    "Silver",
+    "Brown"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/141375/innova-crysta-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Comfortable premium MPV with reliable diesel engine.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Touchscreen",
+    "Captain Seats"
+  ],
+  "rating": 4.8,
+  "reviewsCount": 230
+},
+{
+  "_id": {
+    "$oid": "6991dd3ddf9247b223629f54"
+  },
+  "name": "Kia Carens",
+  "brand": "Kia",
+  "price": 1600000,
+  "category": "MUV",
+  "fuelType": "Petrol",
+  "transmission": "Manual",
+  "engine": "1.5L NA Petrol",
+  "mileage": 16,
+  "seatingCapacity": 7,
+  "colorOptions": [
+    "White",
+    "Blue",
+    "Grey"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/115481/carens-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Spacious family MUV with premium interiors.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Touchscreen",
+    "Rear AC Vents"
+  ],
+  "rating": 4.6,
+  "reviewsCount": 180
+},
+{
+  "_id": {
+    "$oid": "6991dd3ddf9247b223629f55"
+  },
+  "name": "Skoda Kushaq",
+  "brand": "Skoda",
+  "price": 1350000,
+  "category": "SUV",
+  "fuelType": "Petrol",
+  "transmission": "Manual",
+  "engine": "1.0L TSI Petrol",
+  "mileage": 18,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "Orange",
+    "White",
+    "Silver"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/141373/kushaq-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Compact SUV with strong build quality and turbo power.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Touchscreen",
+    "Cruise Control"
+  ],
+  "rating": 4.5,
+  "reviewsCount": 150
+},
+{
+  "_id": {
+    "$oid": "6991dd3ddf9247b223629f56"
+  },
+  "name": "Jeep Compass",
+  "brand": "Jeep",
+  "price": 2600000,
+  "category": "SUV",
+  "fuelType": "Diesel",
+  "transmission": "Automatic",
+  "engine": "2.0L Multijet Diesel",
+  "mileage": 16,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "Black",
+    "White",
+    "Green"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/132995/compass-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Premium SUV with strong off-road capability.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Panoramic Sunroof",
+    "4x4"
+  ],
+  "rating": 4.7,
+  "reviewsCount": 170
+},
+{
+  "_id": {
+    "$oid": "6991dd3ddf9247b223629f57"
+  },
+  "name": "BMW X1",
+  "brand": "BMW",
+  "price": 4900000,
+  "category": "SUV",
+  "fuelType": "Diesel",
+  "transmission": "Automatic",
+  "engine": "2.0L TwinPower Turbo",
+  "mileage": 19,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "Black",
+    "White",
+    "Blue"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/131131/x1-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Luxury SUV with premium comfort and performance.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Panoramic Sunroof",
+    "ADAS"
+  ],
+  "rating": 4.8,
+  "reviewsCount": 120
+},
+{
+  "_id": {
+    "$oid": "6991dd3ddf9247b223629f58"
+  },
+  "name": "Audi A4",
+  "brand": "Audi",
+  "price": 5200000,
+  "category": "Sedan",
+  "fuelType": "Petrol",
+  "transmission": "Automatic",
+  "engine": "2.0L TFSI Petrol",
+  "mileage": 17,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "Black",
+    "White",
+    "Silver"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/123719/a4-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Luxury sedan with premium interiors and tech.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Virtual Cockpit",
+    "Sunroof"
+  ],
+  "rating": 4.9,
+  "reviewsCount": 95
+},
+{
+  "_id": {
+    "$oid": "6991dd3ddf9247b223629f59"
+  },
+  "name": "Mini Cooper Convertible",
+  "brand": "Mini",
+  "price": 4800000,
+  "category": "Convertible",
+  "fuelType": "Petrol",
+  "transmission": "Automatic",
+  "engine": "2.0L Turbo Petrol",
+  "mileage": 16,
+  "seatingCapacity": 4,
+  "colorOptions": [
+    "Red",
+    "Yellow",
+    "Black"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/41447/convertible-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Fun-to-drive convertible with premium styling.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Soft Top Roof",
+    "Touchscreen"
+  ],
+  "rating": 4.6,
+  "reviewsCount": 85
+},
+{
+  "_id": {
+    "$oid": "6991dd3ddf9247b223629f5a"
+  },
+  "name": "Mercedes-Benz C-Class Coupe",
+  "brand": "Mercedes",
+  "price": 6800000,
+  "category": "Coupe",
+  "fuelType": "Petrol",
+  "transmission": "Automatic",
+  "engine": "2.0L Turbo Petrol",
+  "mileage": 15,
+  "seatingCapacity": 4,
+  "colorOptions": [
+    "White",
+    "Black",
+    "Blue"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/124393/c-class-coupe-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Luxury coupe with sporty design and performance.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Panoramic Sunroof",
+    "ADAS"
+  ],
+  "rating": 4.9,
+  "reviewsCount": 75
+},
+{
+  "_id": {
+    "$oid": "6991dd3ddf9247b223629f5b"
+  },
+  "name": "Toyota Camry Hybrid",
+  "brand": "Toyota",
+  "price": 4600000,
+  "category": "Sedan",
+  "fuelType": "Hybrid",
+  "transmission": "Automatic",
+  "engine": "2.5L Hybrid Petrol",
+  "mileage": 23,
+  "seatingCapacity": 5,
+  "colorOptions": [
+    "White",
+    "Silver",
+    "Black"
+  ],
+  "images": [
+    "https://imgd.aeplcdn.com/664x374/n/cw/ec/129987/camry-exterior-right-front-three-quarter.jpeg"
+  ],
+  "description": "Premium hybrid sedan with high efficiency.",
+  "features": [
+    "ABS",
+    "Airbags",
+    "Sunroof",
+    "ADAS"
+  ],
+  "rating": 4.8,
+  "reviewsCount": 110
+}]
