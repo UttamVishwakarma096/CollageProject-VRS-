@@ -3,7 +3,13 @@ const router = express.Router();
 
 const { getAllVehicles } = require("../controllers/allVehicles");
 const { getCarById } = require("../controllers/getCar");
-const { getSavedCars, savedCar, removeSavedCar } = require("../controllers/savedCars");
+const {
+  getSavedCars,
+  savedCar,
+  removeSavedCar,
+} = require("../controllers/savedCars");
+const { createCar } = require("../controllers/createCar");
+const { analyzeCarImage } = require("../controllers/analyzeCarImage");
 const { login, signup, protect } = require("../middlewares/authMiddelware");
 
 router.post("/login", login);
@@ -11,6 +17,9 @@ router.post("/signup", signup);
 
 router.get("/cars", getAllVehicles);
 router.get("/car/:id", getCarById);
+router.post("/cars", protect, createCar);
+
+router.post("/analyze-car-image", analyzeCarImage);
 
 router.get("/saved_car", protect, getSavedCars);
 router.post("/saved_car", protect, savedCar);

@@ -1,6 +1,7 @@
 import { Link, NavLink, useLocation } from "react-router-dom";
 import Logout from "./Logout";
 import { useEffect, useState } from "react";
+import { FaCarSide } from "react-icons/fa";
 
 const Navbar = () => {
   const logout = Logout();
@@ -25,9 +26,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <Link
             to="/"
-            className="text-emerald-400 font-bold text-sm sm:text-base md:text-lg tracking-tight hover:text-emerald-300 transition"
+            className="flex items-center justify-center w-9 h-9 rounded-lg bg-emerald-500/15 border border-emerald-500/40 text-emerald-400 hover:bg-emerald-500/25 hover:text-emerald-300 transition"
           >
-            Vehicle Recommendation System
+            <FaCarSide className="w-5 h-5" />
           </Link>
 
           <div className="flex items-center gap-2">

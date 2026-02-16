@@ -39,6 +39,14 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
+            <div className="mt-4">
+              <Link
+                to="/admin"
+                className="inline-flex items-center justify-center px-4 py-2 rounded-xl bg-emerald-600 text-white text-sm font-semibold hover:bg-emerald-500 transition"
+              >
+                Go to Admin
+              </Link>
+            </div>
           </div>
           <div>
             <h3 className="text-emerald-400 font-semibold mb-3">Contact</h3>

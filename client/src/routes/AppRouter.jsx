@@ -9,6 +9,7 @@ import AllVehicles from "../pages/AllVehicles";
 import CarDetails from "../pages/CarCetails";
 import Compare from "../pages/Compare";
 import ProtectedRoute from "./ProtectedRoute";
+import Admin from "../pages/Admin";
 
 const AppRouter = () => {
   return (
@@ -21,6 +22,7 @@ const AppRouter = () => {
 
           <Route element={<ProtectedRoute />}>
             <Route path="/saved_car" element={<SavedCar />} />
+            <Route path="/admin" element={<Admin />} />
           </Route>
 
           <Route path="/cars" element={<AllVehicles />} />

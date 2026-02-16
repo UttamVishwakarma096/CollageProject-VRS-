@@ -28,4 +28,21 @@
     }
   ],
   "__v": 1
+},
+{
+  "_id": {
+    "$oid": "699342e6e65df0bb732ba24f"
+  },
+  "username": "uttam vishwakarma",
+  "email": "uttamvishwakarma096@gmail.com",
+  "password": "$2b$10$47vph3LJjhs1LmIBqy8SUuMjdelsnfZzahi9Xuea7vwoAJW0R64wK",
+  "savedCars": [
+    {
+      "$oid": "6991dc26df9247b223629f44"
+    },
+    {
+      "$oid": "6991dd3ddf9247b223629f5b"
+    }
+  ],
+  "__v": 2
 }]

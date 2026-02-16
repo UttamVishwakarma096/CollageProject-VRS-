@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SearchBar from "../components/SearchBar";
+import CarImageAnalyzer from "../components/CarImageAnalyzer";
 
 const BRANDS = ["Tata", "Hyundai", "Maruti", "Honda"];
 
@@ -22,8 +23,15 @@ const Dashboard = () => {
           <div className="absolute w-20 h-20 rounded-full bg-emerald-500/20 blur-xl -translate-x-24 translate-y-8" />
           <div className="absolute w-20 h-20 rounded-full bg-emerald-500/20 blur-xl translate-x-24 translate-y-8" />
         </div>
-        <div className="relative z-10">
+        <div className="relative z-10 text-center px-4">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight mb-3 bg-gradient-to-r from-emerald-400 to-emerald-300 text-transparent bg-clip-text drop-shadow-lg">
+            Vehicle Recommendation System
+          </h1>
+          <p className="text-sm sm:text-base text-zinc-300/90 mb-7 max-w-2xl mx-auto">
+            Find your next vehicle with a modern, AI-assisted recommendation experience.
+          </p>
           <SearchBar />
+          <CarImageAnalyzer />
         </div>
       </div>
       <div className="min-h-[50vh] bg-zinc-900 text-white px-6 pb-16">
