@@ -39,12 +39,13 @@ const analyzeCarImage = async (req, res) => {
     // Validate base64 data exists
     if (!base64Data || base64Data.length === 0) {
       return res.status(400).json({
-        message: "Invalid image data. Please ensure the image is properly encoded.",
+        message:
+          "Invalid image data. Please ensure the image is properly encoded.",
       });
     }
 
     const response = await fetch(
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+      "https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent",
       {
         method: "POST",
         headers: {
@@ -83,10 +84,17 @@ const analyzeCarImage = async (req, res) => {
 
     if (!response.ok) {
       console.error("Gemini API error:", data);
-      const errorMsg = data.error?.message || `API returned status ${response.status}`;
-      return res.status(response.status >= 400 && response.status < 500 ? response.status : 500).json({
-        message: `Gemini API error: ${errorMsg}`,
-      });
+      const errorMsg =
+        data.error?.message || `API returned status ${response.status}`;
+      return res
+        .status(
+          response.status >= 400 && response.status < 500
+            ? response.status
+            : 500,
+        )
+        .json({
+          message: `Gemini API error: ${errorMsg}`,
+        });
     }
 
     const text =
@@ -97,7 +105,8 @@ const analyzeCarImage = async (req, res) => {
 
     if (!text) {
       return res.status(500).json({
-        message: "Gemini API did not return any description. Please try with a different image.",
+        message:
+          "Gemini API did not return any description. Please try with a different image.",
       });
     }
 
@@ -107,7 +116,9 @@ const analyzeCarImage = async (req, res) => {
   } catch (error) {
     console.error("analyzeCarImage error:", error);
     return res.status(500).json({
-      message: error.message || "Server error while analyzing image. Please try again.",
+      message:
+        error.message ||
+        "Server error while analyzing image. Please try again.",
     });
   }
 };
