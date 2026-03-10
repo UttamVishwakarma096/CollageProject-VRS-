@@ -212,56 +212,63 @@ const CarImageAnalyzer = () => {
                     parsedData?.year ||
                     parsedData?.bodyType ||
                     parsedData?.features) && (
-                    <div className="bg-zinc-800/50 border border-zinc-700 rounded-xl p-4 space-y-3 mb-3">
-                      {parsedData.brand && (
-                        <div className="flex items-center gap-2">
-                          <FaCar className="w-4 h-4 text-emerald-400" />
-                          <span className="text-sm text-zinc-300">Brand:</span>
-                          <span className="text-sm text-zinc-100 font-medium">
-                            {parsedData.brand}
-                          </span>
-                        </div>
-                      )}
-                      {parsedData.model && (
-                        <div className="flex items-center gap-2">
-                          <FaCar className="w-4 h-4 text-emerald-400" />
-                          <span className="text-sm text-zinc-300">Model:</span>
-                          <span className="text-sm text-zinc-100 font-medium">
-                            {parsedData.model}
-                          </span>
-                        </div>
-                      )}
-                      {parsedData.year && (
-                        <div className="flex items-center gap-2">
-                          <FaCalendarAlt className="w-4 h-4 text-emerald-400" />
-                          <span className="text-sm text-zinc-300">Year:</span>
-                          <span className="text-sm text-zinc-100 font-medium">
-                            {parsedData.year}
-                          </span>
-                        </div>
-                      )}
-                      {parsedData.bodyType && (
-                        <div className="flex items-center gap-2">
-                          <FaCogs className="w-4 h-4 text-emerald-400" />
-                          <span className="text-sm text-zinc-300">
-                            Body Type:
-                          </span>
-                          <span className="text-sm text-zinc-100 font-medium">
-                            {parsedData.bodyType}
-                          </span>
-                        </div>
-                      )}
-                      {parsedData.features && (
-                        <div className="flex items-center gap-2">
-                          <FaStar className="w-4 h-4 text-emerald-400" />
-                          <span className="text-sm text-zinc-300">
-                            Features:
-                          </span>
-                          <span className="text-sm text-zinc-100 font-medium">
-                            {parsedData.features}
-                          </span>
-                        </div>
-                      )}
+                    <div className="bg-gradient-to-br from-zinc-800 to-zinc-900 border border-emerald-500/20 rounded-2xl p-5 mb-3 shadow-lg">
+                      <h3 className="text-emerald-400 font-semibold text-lg mb-4 flex items-center gap-2">
+                        <FaCar className="w-5 h-5" />
+                        Car Analysis
+                      </h3>
+                      <div className="space-y-3">
+                        {parsedData.brand && (
+                          <div className="flex items-start justify-between">
+                            <span className="text-xs font-bold uppercase tracking-wider text-emerald-400 bg-emerald-500/10 px-2 py-1 rounded">
+                              Brand
+                            </span>
+                            <span className="text-sm text-zinc-100 font-semibold">
+                              {parsedData.brand}
+                            </span>
+                          </div>
+                        )}
+                        {parsedData.model && (
+                          <div className="flex items-start justify-between">
+                            <span className="text-xs font-bold uppercase tracking-wider text-emerald-400 bg-emerald-500/10 px-2 py-1 rounded">
+                              Model
+                            </span>
+                            <span className="text-sm text-zinc-100 font-semibold">
+                              {parsedData.model}
+                            </span>
+                          </div>
+                        )}
+                        {parsedData.year && (
+                          <div className="flex items-start justify-between">
+                            <span className="text-xs font-bold uppercase tracking-wider text-blue-400 bg-blue-500/10 px-2 py-1 rounded">
+                              Year
+                            </span>
+                            <span className="text-sm text-zinc-100 font-semibold">
+                              {parsedData.year}
+                            </span>
+                          </div>
+                        )}
+                        {parsedData.bodyType && (
+                          <div className="flex items-start justify-between">
+                            <span className="text-xs font-bold uppercase tracking-wider text-purple-400 bg-purple-500/10 px-2 py-1 rounded">
+                              Body Type
+                            </span>
+                            <span className="text-sm text-zinc-100 font-semibold">
+                              {parsedData.bodyType}
+                            </span>
+                          </div>
+                        )}
+                        {parsedData.features && (
+                          <div className="pt-2 border-t border-zinc-700">
+                            <span className="text-xs font-bold uppercase tracking-wider text-amber-400 bg-amber-500/10 px-2 py-1 rounded inline-block mb-2">
+                              Notable Features
+                            </span>
+                            <p className="text-sm text-zinc-200 leading-relaxed">
+                              {parsedData.features}
+                            </p>
+                          </div>
+                        )}
+                      </div>
                     </div>
                   )}
                   <div className="text-sm text-zinc-200 whitespace-pre-wrap bg-zinc-900/70 border border-zinc-700 rounded-xl px-3 py-2">
