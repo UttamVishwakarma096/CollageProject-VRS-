@@ -16,9 +16,8 @@ VRS is a web-based application designed to provide users with an efficient and u
 
 **Frontend**
 
-- HTML
-- CSS
-- JavaScript
+- React.js
+- Tailwind CSS
 
 **Backend**
 
